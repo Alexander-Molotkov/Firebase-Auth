@@ -37,13 +37,16 @@
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="dist\" />
+    <Folder Include="build\" />
     <Folder Include="public\" />
     <Folder Include="src\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\components\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".eslintrc.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="babel.config.js" />
     <Compile Include="src\main.js" />
   </ItemGroup>
